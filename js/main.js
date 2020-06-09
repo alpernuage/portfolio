@@ -371,7 +371,7 @@
  		//cycle through the values in sections array
  		for (var i in sections) {
  			var section = sections[i];
- 			//if scrollTop variable is bigger than the top offset of a section in the sections array then 
+ 			//if scrollTop variable is bigger than the top offset of a section in the sections array then
  			if (scrollTop > section.offset().top) {
  				var scrolled_id = section.attr('id');
  			}
