@@ -13882,6 +13882,9 @@ textarea.form-control {
   }
 }
 
+/* ************************ */
+/* SURCHARGES */
+
 ul>li>i {
   font-size: 1.7rem;
   padding-right: 0.5rem;
@@ -13890,3 +13893,14 @@ ul>li>i {
 /* .list-group {
   margin-left: -1.1rem;
 } */
+
+.card:hover {
+  background-color: #eaf2e3;
+  opacity: 0.8;
+  transition: all 0.3s ease;
+}
+
+.card-img-top {
+  height: 30vh;
+  object-fit: cover;
+}
