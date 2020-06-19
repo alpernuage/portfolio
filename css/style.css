@@ -13936,3 +13936,7 @@ ul>li>i {
 .bg-EAE8E7 {
   background-color: #EAE8E7;
 }
+
+.hoverLinkProject:hover {
+  text-decoration: underline;
+}
