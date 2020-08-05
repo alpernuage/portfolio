@@ -11740,7 +11740,11 @@ a:focus {
 }
 
 h1,
-h2,
+h2 {
+  color: black;
+  font-weight: 400;
+}
+
 h3,
 h4,
 h5,
@@ -12174,7 +12178,6 @@ h5,
   position: absolute;
   left: 0;
   right: 0;
-  bottom: 350px;
   z-index: 2;
 }
 
